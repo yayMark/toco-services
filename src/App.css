@@ -1,0 +1,63 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.name {
+  font-family: "Poppins", sans-serif;
+  font-size: 6rem;
+  font-weight: 800;
+  line-height: 7rem;
+}
+
+.logo {
+  width: 80%;
+}
+
+.abn {
+  font-family: "Open Sans", sans-serif;
+  color: #a03f0a;
+  font-size: 3rem;
+  line-height: 3rem;
+}
+
+/* Mobile breakpoint (max 480px) */
+@media (max-width: 480px) {
+  .name {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+
+  .abn {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+}
+
+/* Tablet breakpoint (481px to 768px) */
+@media (min-width: 481px) and (max-width: 768px) {
+  .name {
+    font-size: 3.5rem;
+    line-height: 4rem;
+  }
+
+  .abn {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+}
+
+/* Large screen breakpoint (769px and above) */
+@media (min-width: 769px) {
+  .name {
+    font-size: 6rem;
+    line-height: 7rem;
+  }
+
+  .abn {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+}
