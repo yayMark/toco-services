@@ -5,7 +5,7 @@ function App() {
     <>
       <img
         className="logo"
-        src="/toco-services-logo.svg"
+        src="toco-services-logo.svg"
         alt="Toco Services logo"
       />
       <div className="name">ToCo Services</div>
